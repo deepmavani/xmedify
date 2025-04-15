@@ -33,6 +33,7 @@ function Form({ children, type, backGround, bdata, setIsOpen, inputText,setInput
           <div className={style.inputbox}>
             <Select
               sx={{ minWidth: 200, width: "100%", border: 'none', }}
+              id="state"
               name="state"
               className={style.select}
               value={context?.state}
@@ -55,6 +56,7 @@ function Form({ children, type, backGround, bdata, setIsOpen, inputText,setInput
             <Select
               sx={{ minWidth: 200, width: "100%", border: 'none', }}
               className={style.select}
+              id="city"
               name="city"
               value={context?.city}
               onChange={(event) => context.setCity(event.target.value)}

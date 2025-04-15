@@ -107,12 +107,19 @@ function Card({ data, heading, handleClick, cardtype, children, ImgIcon, }) {
             </span>
           </div>
 
-          {!data?.isbooked && <div className={style.btns}>
-            <p className={style.avail}>Available Today</p>
-            <div className={style.bookingBtn} >
-              <Button varient={btnVarient.LIGHTBLUE} btnText={expand ? 'cancel' : 'Book FREE Center Visit'} handleClick={() => setExpand(!expand)}></Button>
-            </div>
-          </div>}
+          {!data?.isbooked && (
+  <div className={style.btns}>
+    <p className={style.avail}>Available Today</p>
+    <div className={style.bookingBtn}>
+      <Button
+        varient={btnVarient.LIGHTBLUE}
+        handleClick={() => setExpand(!expand)}
+      >
+        {expand ? 'cancel' : 'Book FREE Center Visit'}
+      </Button>
+    </div>
+  </div>
+)}
 
           {data?.isbooked && <div className={style.booked}>
             <p className={style.time}>{data?.time}</p>
