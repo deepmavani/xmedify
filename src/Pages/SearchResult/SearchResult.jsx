@@ -29,7 +29,7 @@ export default function SearchResult() {
     <Navbar />
 
     <div className={style.BlueStrip}>
-      <div className={style.Form}><Form id={'Form'} type={Formtype.Search}></Form>
+      <div className={style.Form}><Form id={'Form'} type={submit}></Form>
       </div>
     </div>
 
