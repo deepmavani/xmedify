@@ -81,7 +81,7 @@ function Form({ children, type, backGround, bdata, setIsOpen, inputText,setInput
                 c.preventDefault()
                 navigate('/SearchResult')
               }
-            }} type={"submit"} ><SearchIcon></SearchIcon> Search</Button>
+            }} type={"submit"} ><SearchIcon></SearchIcon>Search</Button>
           </div>
         </form>
       )
@@ -103,7 +103,7 @@ function Form({ children, type, backGround, bdata, setIsOpen, inputText,setInput
 
             <div className={style.btns}>
               <Button varient={btnVarient.LIGHTBLUE} type={"submit"}>
-                <SearchIcon></SearchIcon> Search
+                <SearchIcon></SearchIcon>Search
               </Button>
             </div>
           </form>
