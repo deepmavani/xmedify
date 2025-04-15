@@ -86,10 +86,13 @@ function Form({ children, type, backGround, bdata, setIsOpen, inputText,setInput
     }}
     type="submit"
   >
-    <SearchIcon />
-    <span style={{ marginLeft: '4px' }}>Search</span>
+    <span style={{ display: "inline-flex", alignItems: "center" }}>
+      <SearchIcon style={{ marginRight: "4px" }} />
+      Search
+    </span>
   </Button>
 </div>
+
 
         </form>
       )
@@ -111,10 +114,13 @@ function Form({ children, type, backGround, bdata, setIsOpen, inputText,setInput
 
 <div className={style.btns}>
   <Button varient={btnVarient.LIGHTBLUE} type="submit">
-    <SearchIcon />
-    <span style={{ marginLeft: '4px' }}>Search</span>
+    <span style={{ display: "inline-flex", alignItems: "center" }}>
+      <SearchIcon style={{ marginRight: "4px" }} />
+      Search
+    </span>
   </Button>
 </div>
+
 
           </form>
         </div>
