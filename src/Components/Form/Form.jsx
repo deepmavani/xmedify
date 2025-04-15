@@ -117,7 +117,7 @@ function Form({ children, type, backGround, bdata, setIsOpen, inputText, setInpu
               required
             />
             <div className={style.btns}>
-              <Button varient={btnVarient.LIGHTBLUE} type="submit">
+              <Button varient={btnVarient.LIGHTBLUE} type="submit" data-testid="search-form-button">
                 <span style={{ display: 'inline-flex', alignItems: 'center' }}>
                   <SearchIcon style={{ marginRight: '4px' }} />
                   Search
