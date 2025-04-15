@@ -1,0 +1,179 @@
+.heading {
+    width: auto;
+    margin-top: 3%;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 45.96px;
+}
+
+.MyBooking {
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(178, 182, 189, 0.47) 89.11%);
+}
+
+.BlueStrip {
+    background: linear-gradient(91.75deg, #2AA7FF 1.4%, #0C8CE6 100.57%);
+    width: 100%;
+    display: flex;
+    height: 110px;
+    border-radius: 0 0 16px 16px;
+    position: relative;
+    z-index: 1;
+    top: -6px;
+    padding: 0 9%;
+}
+
+.Form {
+    color: #FFFFFF;
+    width: 59%;
+    position: relative;
+    top: 55px;
+    left: 24%;
+    overflow: hidden;
+    box-shadow: 6px 6px 35px 0px #1028511C;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.resultSec {
+    position: relative;
+    top: -15px;
+    /* z-index: -3; */
+    padding: 10% 0;
+    /* background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(178, 182, 189, 0.47) 89.11%); */
+}
+
+.resultSec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    gap: 20px;
+    width: 786px;
+    height: auto;
+}
+
+.careH {
+    position: absolute;
+    top: 90px;
+    width: 643px;
+    margin: 3% 1%;
+    height: 64px
+}
+
+.careHM {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000;
+}
+
+.careHS {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #787887;
+}
+
+.add {
+    margin-top: 5%;
+    width: 363px;
+    height: 268px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+    .resultSec {
+        flex-direction: column-reverse;
+        height: auto;
+        /* margin-top: 15%; */
+    }
+
+    .careH {
+        top: 80%;
+        position: relative;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .careHM,
+    .careHS {
+        display: inline-block;
+    }
+
+    .add {
+        margin: auto;
+        margin-bottom: 9%;
+    }
+
+    .cards {
+        width: 80%;
+        margin: auto;
+    }
+
+    .Form {
+        width: 40%;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cards {
+        width: auto;
+    }
+    .Form {
+        width: 40%;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .resultSec {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: 15%;
+    }
+
+    .cards {
+        width: auto;
+    }
+
+    .careH {
+        top: 80%;
+        width: 100%;
+    }
+
+    .careHM,
+    .careHS {
+        display: inline;
+    }
+    .Form {
+        width: 45%;
+        left: 10%;
+        box-shadow: none;
+    }
+}
+@media only screen and (max-width:1149px) {
+    .resultSec{
+        flex-direction: column-reverse;
+        height: auto;
+        /* margin-top: 15%; */
+    }
+    .add{
+        margin: auto;
+    }
+    .cards{
+        margin: auto;
+        width: 80%;
+        margin-top: 6%;
+    }
+}

@@ -1,0 +1,31 @@
+.carousalC {
+  /* padding: 0 20px; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.swiper {
+  /* padding: 0 20px; */
+  width: 100%;
+  /* height: 805; */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper{height: 80%;}
+.swiper-slide,.SwiperSlide {
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 398.3px !important;
+  min-height: 199.15px;
+  border-radius: 20px;
+}
+.swiper-pagination{
+  
+}

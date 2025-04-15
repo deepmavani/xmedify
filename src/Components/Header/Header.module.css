@@ -1,0 +1,10 @@
+.heading {
+    display: flex;
+    align-items: center;
+    background-color: #2AA7FF;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 40px;
+    color: #FFFFFF;
+}

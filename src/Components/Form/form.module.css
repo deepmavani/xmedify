@@ -1,0 +1,156 @@
+input,
+select {
+    width: 100%;
+    height: 100%;
+
+    /* margin: 2%; */
+    color: #ABB6C7;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    /* padding: 6px; */
+    border-radius: 8px;
+    border: none;
+    background-color: #FBFBFB;
+}
+
+select,
+input:focus {
+    outline: none;
+}
+
+.inputbox {
+    display: flex;
+    min-height: 50px;
+    border-radius: 8px;
+    background-color: #FBFBFB;
+    width: 285px;
+    background-color: #FAFBFE;
+}
+.select{
+    /* border: none !important; */
+    border-radius: 8px !important;
+    background-color: #FAFBFE;
+    border: 0.1px solid #F0F0F0
+}
+.searchForm,
+.searchFormW,
+.SearchByHospital {
+    display: flex;
+    align-items: center;
+    min-height: 111px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    width: 100%;
+    padding: 0 3%;
+}
+.searchFormW{
+    background: #ffffff;
+}
+.searchByHospital{background-color: #fff;}
+/* .inputbox {
+    display: flex;
+    height: 50px;
+    width: 285px;
+    padding: 0 16px;
+    border: 1px solid #F0F0F0;
+} */
+
+.iconC {
+    height: 100%;
+    margin-right: 3px;
+    padding: 12px 0;
+    /* aspect-ratio: 1/1; */
+    display: flex;
+    /* background: #000; */
+}
+
+.icon {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* color: #000; */
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 121px;
+    height: 50px;
+}
+
+.hero_txt3 {
+    display: inline-flex;
+    margin: 0;
+    color: #414146;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.GetApp {
+    display: flex;
+    align-items: center;
+    /* min-height: 111px; */
+    justify-content: space-evenly;
+    width: 100%;
+    /* padding: 0 3%; */
+}
+
+.country {
+    height: 50px;
+    width: auto;
+    border-radius: 8px 0 0 8px;
+}
+
+.phone {
+    width: 100%;
+    height: 50px;
+    border-radius: 0 0;
+}
+
+.appBtns {
+    display: flex;justify-content: space-evenly;margin-top: 6%;
+    height: 69px;
+}
+
+.input{
+    height: 50px;
+    padding: 0 5%;
+}
+
+@media only screen and (max-width: 992px)
+{
+    .searchFormW{
+        margin: auto;
+        flex-direction: column;
+        width: 80%;
+        padding: 6%;
+        gap: 10px;
+        margin-top: 6%;
+    }
+    .inputbox{
+        width: 100%;
+    }
+    .btns{
+        width: 100%;
+    }
+    .SearchByHospital{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 512px){
+    .searchFormW{
+        padding-top: 3%;
+    }
+    .GetApp{
+        flex-direction: column;
+    }
+    .appBtns{
+        height: auto;
+        flex-direction: column;
+    }
+}

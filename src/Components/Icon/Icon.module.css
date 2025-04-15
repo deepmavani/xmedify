@@ -1,0 +1,108 @@
+.logo {
+    /* align-self: start; */
+    display: flex;
+    height: 34px;
+    width: 67px;
+
+}
+
+.logoImg {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.MedicalSpecialistImg {
+    object-fit: contain;
+}
+
+.MedicalSpecialistC {}
+
+.PC {
+    width: 332px;
+    object-fit: cover;
+    height: 275px;
+    border: 5px solid #FFFFFF
+}
+
+.Detox {
+    height: 100%;
+}
+
+.DetoxImg,
+.FAQImg {
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+}
+
+.FAQ {
+    width: 500px;
+    height: 479.84px;
+    border-radius: 8px;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0px 15px 55px -10px #00000017;
+}
+
+.Mobile {
+    overflow: hidden;
+    object-fit: cover;
+    width: 302px;
+    height: 642px;
+    position: relative;
+    border-radius: 33px;
+}
+
+.ScreenImgD {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    height: 635px;
+    width: 299px;
+    z-index: 1;
+    border: solid #00000017 1px;
+    border-radius: 60px;
+}
+
+.MobileImgD {
+    position: absolute;
+    width: 302px;
+    z-index: 1;
+}
+
+.MobileImg {
+    position: relative;
+    left: -3px;
+    bottom: 1px;
+    width: 305px;
+    z-index: 1;
+}
+
+.ScreenImg {
+    position: relative;
+    object-fit: cover;
+    /* width: 9px; */
+    height: 716px;
+    bottom: 23px;
+
+}
+
+.ADD {
+    /* overflow: hidden; */
+    object-fit: cover;
+    width: 363px;
+    height: 268px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.add {
+    position: relative;
+    /* right: 0; */
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    overflow: hidden;
+    width: 636px;
+}

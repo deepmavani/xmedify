@@ -1,0 +1,77 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 96px;
+    padding: 0 9.456%;
+    background-color: white;
+    /* border: 0.5px solid #FFFFFF */
+}
+.sideManu{
+    position: fixed;
+    right: 0;
+    top: 0px;
+    z-index: 3;
+    width: 40vw;
+    height: 100lvh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: #0095ff;
+}
+.manulist{
+    display: flex;height: 40%;
+    min-height: fit-content;
+    justify-content: space-evenly;
+    margin: 3%;
+    flex-direction: column;
+}
+.manulist .span:active {
+    color: #fff;
+}
+
+.manulist .span:hover {
+    color: #c0ccd4;
+}
+
+
+.transperent {
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 96px;
+    padding: 0 9.456%;
+    /* background-color: white; */
+}
+
+.navlist {
+    display: flex;
+    min-width: 76%;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    width: fit-content;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlist .span,.manulist .span {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.span:active {
+    color: #0095ff;
+}
+
+.span:hover {
+    color: #2aa7ff;
+    font-size: 18px;
+}

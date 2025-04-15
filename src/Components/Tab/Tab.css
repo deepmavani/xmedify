@@ -1,0 +1,33 @@
+.tabs .MuiTabs-scrollButtons {
+  border-radius: 100%;
+  width: 50px;
+  opacity: 1 !important;
+  height: 50px;
+  border: 1px solid #E0E0E4
+}
+
+.tabs .Mui-disabled {
+  opacity: 0.5 !important;
+}
+.tabs div span,.MuiTabs-indicator{
+  /* background-color: #fff; */
+}
+.tabH {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: center;z-index: 1;
+  color: #414146;
+}
+.tabH::content{
+  opacity: 1;z-index: 1;
+}
+.tabS {
+  color: #01A400;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;z-index: 1;
+}

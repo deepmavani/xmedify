@@ -1,0 +1,153 @@
+.PatientCaring {
+    height: 598px;
+    width: 100%;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+
+.hero_inner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    gap: 6%;
+}
+
+.heroTxtGP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    width: 556px;
+    padding: 3%;
+    margin-left: 40px;
+}
+
+.hero_txt1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #2AA7FF;
+}
+
+.span1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+}
+
+.span2 {
+    font-family: Poppins;
+    margin: 10px 0;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+    color: #2aa7ff
+}
+
+.hero_txt2 {
+    margin: 3% 0;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    color: #77829D;
+}
+
+.hero_txt3 {
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    gap: 6px;
+    font-family: Roboto;
+    color: #1B3C74;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+}
+
+.PCC {
+    height: 100%;
+    width: 42%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.PC {
+    position: absolute;
+    min-width: 225px;
+    top: 0px;
+    left: 300px;
+    /* z-index: 1; */
+}
+
+.PC1 {
+    overflow: hidden;
+    position: relative;
+    top: 199px;
+    left: 100px;
+}
+
+.PC3 {
+    position: absolute;
+    padding: 0 3%;
+    background-color: #FFFFFF;
+    width: 234.45px;
+    top: 55px;
+    left: 99px;
+    height: 86px;
+    border-radius: 8px
+}
+
+
+@media only screen and (max-width: 992px) {
+    .section {
+        height: fit-content;
+        min-height: 300px;
+    }
+    .flexContainer {
+        height: fit-content;
+    }
+    .hero_inner{
+        flex-direction: column;
+        height: 1111px;
+        overflow: hidden;
+    }
+    .PCC{
+        width: 80%;
+        height: 30%;
+    }
+    .heroTxtGP{
+        height: 45%;
+        width: 90%;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 512px)
+{
+    .PC1{
+        position: static;
+    }
+    .PC{
+        position: static;
+    }
+    .PCC{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }.PC3{
+        top: 40%;
+        left: 20%;
+    }
+}

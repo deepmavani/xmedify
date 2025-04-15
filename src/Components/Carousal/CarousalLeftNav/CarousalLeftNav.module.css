@@ -1,0 +1,9 @@
+.leftArrow {
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    top: 40%;
+    transform: translateY(-50%);
+    rotate: 181deg;
+    z-index: inherit;
+}
